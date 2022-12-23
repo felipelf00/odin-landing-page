@@ -73,12 +73,18 @@ a {
 
 button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     font-weight: bold;
     border: none;
     padding: 10px 25px;
     border-radius: 5px;
-    width: 120px;  
+    width: 120px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
 }
 
 .main {
@@ -126,4 +132,30 @@ button {
     text-align: right;
     font-weight: bold;
     margin: 0 120px;
+}
+
+.bottom {
+    color: #F9FAF8;
+    padding: 40px;
+    margin: 80px 25%;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.bottom .text {
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottom button {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px;
 }
